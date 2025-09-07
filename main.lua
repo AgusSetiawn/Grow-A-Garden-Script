@@ -13,7 +13,7 @@ toggle.Size, toggle.Position, toggle.Text = UDim2.new(1,-20,0,30), UDim2.new(0,1
 toggle.BackgroundColor3 = Color3.fromRGB(0,170,0)
 toggle.TextColor3, toggle.Font, toggle.TextSize = Color3.new(1,1,1), Enum.Font.GothamBold, 14
 
-local delayBox = Instance.new("TextBox", frame)
+local delayBox = Instance.new("Set Delay", frame)
 delayBox.Size, delayBox.Position, delayBox.PlaceholderText = UDim2.new(1,-20,0,30), UDim2.new(0,10,0,50), "Delay (0.15)"
 delayBox.BackgroundColor3 = Color3.fromRGB(50,50,50)
 delayBox.TextColor3, delayBox.Font, delayBox.TextSize = Color3.new(1,1,1), Enum.Font.Gotham, 14
